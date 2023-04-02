@@ -1,0 +1,30 @@
+{
+  "id": "ffg-handouts",
+  "title": "FFG Rule Handouts",
+  "description": "FFG Rule Handouts.",
+  "version": "0.9.1",
+  "authors": [
+    {
+      "name": "My Name",
+      "discord": "MyDiscordUsername#42",
+      "url": "https://www.mywebsite.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "module-journal-entries",
+      "label": "Module Journal Entries",
+      "path": "packs/journal-entries.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+}
