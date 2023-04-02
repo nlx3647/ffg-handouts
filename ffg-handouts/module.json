@@ -2,21 +2,23 @@
   "id": "ffg-handouts",
   "title": "FFG Rule Handouts",
   "description": "FFG Rule Handouts.",
-  "version": "0.9.1",
+  "version": "0.9.3",
   "authors": [
     {
       "name": "nlx3647",
-      "github": "nlx3647",
       "flags": {}
     }
   ],
-  "relationships.requires": [
-    {
+  "relationships": {
+    "requires": [
+      {
         "id": "starwarsffg",
         "type": "system",
-        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json"
-    }
-  ],
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
   "compatibility": {
     "minimum": "10",
     "verified": "10"
