@@ -10,9 +10,9 @@
       "flags": {}
     }
   ],
-  "dependencies": [
+  "relationships.requires": [
     {
-        "name": "starwarsffg",
+        "id": "starwarsffg",
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json"
     }
